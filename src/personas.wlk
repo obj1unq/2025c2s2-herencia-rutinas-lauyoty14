@@ -33,7 +33,7 @@ class PersonaAtleta inherits Persona {
     override method kilosPorCaloria() = 8000
 
     override method aplicarRutina(rutina){
-        if(rutina.calorias() > 10000){
+        if(rutina.calorias(tiempo) > 10000){
             peso -= self.pesoQuePierde(rutina, tiempo)
         }
     }

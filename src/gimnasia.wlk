@@ -23,7 +23,7 @@ class Maraton inherits Running {
 }
 
 class Remo inherits Rutina {
-    override method intensidad() = 1.7 
+    override method intensidad() = 1.3
 
     override method descanso(tiempo) = tiempo / 5  
 }
